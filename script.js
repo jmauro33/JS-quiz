@@ -31,13 +31,6 @@ function showQuestions(){
 // show the answers
 
 
-function showAnswers(choices){
-    console.log('called showAnswers')
-
-    document.getElementById("choices").addEventListener("click", function() {
-
-
-
 //click functions to move between questions
 
 function nextQuestion(nextQuestion){
@@ -98,4 +91,4 @@ function answerScore(questions){
 //hide unneccesary stuff
 //display scores after completing questions
 //if done display score
-        
+});  
