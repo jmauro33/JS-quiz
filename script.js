@@ -21,12 +21,11 @@ document.getElementById("start")
 var currentQuestionIndex = 0;
 
 function showQuestions(){
-    console.log('called showQuestions')
-
-     document.getElementById("quiz").textContent = questions[currentQuestionIndex].title
+    
+    document.getElementById("quiz").textContent = questions[currentQuestionIndex].title
 
 };    
-
+console.log('called showQuestions')
 
 // show the answers
 
@@ -37,7 +36,7 @@ function nextQuestion(nextQuestion){
     currentQuestionIndex++
     showQuestions()
 };
-
+console.log('called nextQuestion')
 var incrementEl = document.querySelector("#next");
 
 incrementEl.addEventListener("click", nextQuestion);
