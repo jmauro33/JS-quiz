@@ -41,7 +41,7 @@ console.log('called previousQuestion')
 var decrementEl = document.querySelector("#previous");
 
 decrementEl.addEventListener("click", previousQuestion); 
-if(countzz)
+
       
 
 function submitQuiz(){
