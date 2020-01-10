@@ -66,6 +66,13 @@ function answerScore(questions) {
             document.getElementById(questions)
 };
 }
+
+
+var count=75;
+
+var counter=setInterval(timer, 1000); 
+
+
 function timer()
 {
   count=count-1;
@@ -75,5 +82,5 @@ function timer()
      return;
   }
 
- document.getElementById("timer").innerHTML=count + " secs"; 
+ document.getElementById("timer").innerHTML=count + "75 secs"; 
 }
