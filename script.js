@@ -28,7 +28,10 @@ function showQuestions() {
         }
   document.getElementById("quiz").textContent = questions[currentQuestionIndex].title
 
+function showAnswers(){
 
+    document.getElementById("Answers").textContent = Answers[currentQuestionIndex].title
+}
 
 
 
