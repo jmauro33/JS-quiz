@@ -11,9 +11,18 @@ text-align: center;
 
 .quizcontainer {
 
- border: 3px;
+border: 3px;
 border-style: dashed;
+margin-left: 30px;
+margin-right: 30px;
+margin-bottom: 6px;
+text-align: center;
+
 
 }
 
+.container{
 
+background-color: aliceblue;
+
+}

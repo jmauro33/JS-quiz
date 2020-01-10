@@ -2,23 +2,40 @@
 <head>
 <title>JS Quiz</title>
  <link rel= "stylesheet" type="text/css" href="style.css">
- <script src="script.js"></script>
- <script src="questions.js"></script>
+
+
 </head>
 
 <body>
 <h1>This is a short quiz on basic knowledge of Javascript it is 5 questions </h1> 
+
+
 <div class="quizcontainer">
 
 <div id="quiz"></div>
+<div id="answers"></div>
+<button id="A">A</button>
+<button id="B">B</button>
+<button id="C">C</button>
+<button id="D">D</button>
+</div>
+
+<div class="container">
+<button id="start">Start quiz</button> 
+<button id="previous">Previous Question</button>
+<button id="next">Next Question</button>
+</div>
+<button id="submit">Submit Quiz</button>
+
+<div id="results">
+    <form>
+        
+    </form>
 
 </div>
 
-<button id="previous">Previous Question</button>
-<button id="next">Next Question</button>
-<button id="submit">Submit Quiz</button>
-<div id="results"></div>
-    
-</body>
 
+</body>
+<script src="questions.js"></script>
+<script src="script.js"></script>
 </html>
