@@ -91,4 +91,3 @@ function answerScore(questions){
 //hide unneccesary stuff
 //display scores after completing questions
 //if done display score
-});  
