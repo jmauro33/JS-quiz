@@ -1,5 +1,5 @@
-//variables time left, high scores(array) index of current questions
-// var questions
+
+
 // start quiz 
 
 function startQuiz(){
@@ -7,16 +7,9 @@ function startQuiz(){
 document.getElementById("start")
 
     start.addEventListener("click",start)   
-
-
 };
 
-//show first question
-
-
-
-
-//display question
+//display questions
 
 var currentQuestionIndex = 0;
 
@@ -29,10 +22,7 @@ console.log('called showQuestions')
 
 // show the answers
 
-
-//click functions to move between questions
-
-function nextQuestion(nextQuestion){
+function nextQuestion(){
     currentQuestionIndex++
     showQuestions()
 };
@@ -42,7 +32,7 @@ var incrementEl = document.querySelector("#next");
 incrementEl.addEventListener("click", nextQuestion);
 
 
-function previousQuestion(previousQuestion){
+function previousQuestion(){
     currentQuestionIndex--
     showQuestions()
 };
@@ -51,21 +41,15 @@ console.log('called previousQuestion')
 var decrementEl = document.querySelector("#previous");
 
 decrementEl.addEventListener("click", previousQuestion); 
+if(countzz)
       
 
 function submitQuiz(){
 
-
-    console.log('submitted')
-
 document.getElementById("submit")
-
-
     submit.addEventListener("click", submitQuiz);
-     
-
 };
-
+console.log('submitted')
 
 function answerScore(questions){
     var questions =
