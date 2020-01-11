@@ -55,8 +55,8 @@ function previousQuestion() {
     var decrementEl = document.querySelector("#previous");
 
     decrementEl.addEventListener("click", previousQuestion);
-
 };
+
 
 function submitQuiz(){
 
