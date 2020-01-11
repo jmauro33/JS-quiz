@@ -43,6 +43,7 @@ function nextQuestion() {
     var incrementEl = document.querySelector("#next");
 
     incrementEl.addEventListener("click", nextQuestion);
+};
 
 
 function previousQuestion() {
@@ -55,7 +56,7 @@ function previousQuestion() {
 
     decrementEl.addEventListener("click", previousQuestion);
 
-
+};
 
 function submitQuiz(){
 
@@ -63,13 +64,14 @@ function submitQuiz(){
         submit.addEventListener("click", submitQuiz);
     };
     console.log('submitted')
+    
+};
+
 
 function answerScore(questions) {
         var questions =
             document.getElementById(questions)
 };
-}
-
 
 var count=75;
 
@@ -87,3 +89,4 @@ function timer()
 
  document.getElementById("timer").innerHTML=count + "75 secs"; 
 }
+
